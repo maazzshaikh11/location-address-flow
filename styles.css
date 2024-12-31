@@ -1,0 +1,159 @@
+/* styles.css */
+
+/* Modal overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensures the modal is above other content */
+}
+
+/* Modal content */
+.modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Modal buttons */
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Button styles */
+.modal-buttons button, .button-block {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.modal-buttons button:hover, .button-block:hover {
+    background-color: #45a049;
+}
+
+/* Dropdown size */
+.large-dropdown {
+    /* Apply to all input fields, dropdown, and button */
+    input, select, button {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+}
+
+    width: 320px;  /* Increase the width of the dropdown */
+    height: 40px;  /* Increase the height of the dropdown */
+    font-size: 16px; /* Increase the font size inside the dropdown */
+    margin-top: 10px; /* Optional: Add space between the dropdown and the button */
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.manage-address {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.manage-address h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.address-item {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form input,
+.edit-form select {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.edit-form button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.edit-button,
+.delete-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.save-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
